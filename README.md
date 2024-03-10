@@ -43,7 +43,7 @@ Branch : main
        - By invoking the script "installhelmchart.sh", the helm chart will deploy the single redis container into the minikube cluster. we can check the deployment and pods by giving the command "minikube kubectl get all"
 
 4. Setting the Key Value and Fetching it
-==========================================
+   =====================================
 a. To enter into the redis container and set a key value by issuing redis commands, we need to run the "setkeyvalue.sh" script. By executing the script the key value is set. We will get "OK" if the key value is successfully set.
 b. To fetch the key value we need to run the "fetchkeyvalue.sh" script. Once the script ran successfully we can see the key value which we have set.
 
